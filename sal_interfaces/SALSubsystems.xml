@@ -346,7 +346,7 @@
 
 
 <Subsystem>
-  <Name>scheduler</Name>
+  <Name>Scheduler</Name>
   <Description></Description>
   <Enumeration></Enumeration>
   <Version></Version>
