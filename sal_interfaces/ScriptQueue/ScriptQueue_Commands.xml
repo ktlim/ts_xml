@@ -32,7 +32,7 @@
     <Property></Property>
     <Action></Action>
     <Value></Value>
-    <Explanation>List the scripts in the queue.</Explanation>
+    <Explanation>Output the queue event.</Explanation>
     <item>
         <EFDB_Name>ignored</EFDB_Name>
         <Description>Dummy value that is ignored.</Description>
@@ -45,13 +45,13 @@
     <Subsystem>ScriptQueue</Subsystem>
     <Version>1.0.0</Version>
     <Author></Author>
-    <EFDB_Topic>ScriptQueue_command_showScriptInfo</EFDB_Topic>
-    <Alias>showScriptInfo</Alias>
+    <EFDB_Topic>ScriptQueue_command_showScript</EFDB_Topic>
+    <Alias>showScript</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
     <Value></Value>
-    <Explanation>Get scriptInfo for one script.</Explanation>
+    <Explanation>Output script event for a specified script.</Explanation>
     <item>
         <EFDB_Name>salIndex</EFDB_Name>
         <Description>SAL index of Script for which you want information.</Description>
