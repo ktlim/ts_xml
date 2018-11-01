@@ -40,7 +40,6 @@ foreach (subsys IN LISTS Subsystems)
       ${CMAKE_CURRENT_BINARY_DIR}/SALGenerics.xml
     COMMAND cp ${CMAKE_CURRENT_SOURCE_DIR}/sal_interfaces/${subsys}/*_*.xml .
     COMMAND sh salgen.sh ${subsys} validate
-    COMMAND rm *_*.xml
     )
   add_custom_command (
     OUTPUT libsacpp_${subsys}_types.so
